@@ -62,6 +62,7 @@ public class GaymarMod
         }
         if(event.getTabKey()== CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(Modblocks.VOIDIUM_BLOCK);
+            event.accept(Modblocks.VOIDIUM_ORE);
         }
     }
 
